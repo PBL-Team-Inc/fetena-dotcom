@@ -1,21 +1,20 @@
 <template>
-  <navbar/>
+  <navbar />
 </template>
 <script>
-
-import navbar from './components/NavBar/Navbar.vue'
-
-export default{
+import navbar from "./components/NavBar/Navbar.vue";
+import form from "./components/form/form.vue";
+export default {
   components: {
-    navbar
-  }
-  
-}
+    navbar,
+    form,
+  },
+};
 </script>
 
 <style>
 #app {
-  background: url('./assets/BG.jpg') no-repeat; 
+  background: url("./assets/BG.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -23,8 +22,5 @@ export default{
   position: absolute;
   top: 0;
   left: 0;
-  
 }
-
-
 </style>
